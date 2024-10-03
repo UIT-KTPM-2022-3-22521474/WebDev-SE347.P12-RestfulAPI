@@ -46,6 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     Price: ${device.data.price}
                     CPU Model: ${device.data["CPU model"]}
                     Hard Disk Size: ${device.data["Hard disk size"]}
+                    Created At: ${device.createdAt}
                 `;
                 alert(deviceInfo);
                 window.location.href = 'index.html';
